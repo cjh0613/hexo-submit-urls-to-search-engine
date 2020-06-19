@@ -37,8 +37,7 @@ hexo_submit_urls_to_search_engine:
 ## deploy 配置
 ```
 deploy:
-hexo_submit_urls_to_searchEngine
-- type: google_url_submitter # 谷歌
-- type: bing_url_submitter # 必应
-- type: baidu_url_submitter # 百度
+- type: cjh_google_url_submitter # 谷歌
+- type: cjh_bing_url_submitter # 必应
+- type: cjh_baidu_url_submitter # 百度
 ```
