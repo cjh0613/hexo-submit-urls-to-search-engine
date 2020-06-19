@@ -18,14 +18,20 @@
 
 ## hexo-submit-urls-to-searchEngine 配置
 ```
-hexo_submit_urls_to_searchEngine:
-  count: 1000 ## 提交最新的一个链接
-  google_url_submitter: 
-  bing_url_submitter
-   baidu_url_submitter
-  path: submit_urls.txt ## 文本文档的地址， 新链接会保存在此文本文档里
-  baidu_host: alili.tech ## 在百度站长平台中注册的域名
-  baidu_token: xxxxx ## 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
+hexo_submit_urls_to_search_engine:
+  submit_condition: count #被提交的条件，现仅支持count
+  count: 10 ## 提交最新的10个链接
+  period: 900 #一段时间，单位秒，文章更新时间距本插件运行时间在此段时间内，链接会被提交
+  google: true #使用Google提交
+  bing: true #使用bing提交
+  baidu: true #使用baidu提交
+  txt_path: submit_urls.txt ## 文本文档的地址， 新链接会保存在此文本文档里
+  baidu_host: https://cjh0613.github.io ## 在百度站长平台中注册的域名
+  baidu_token: xxxxx ## 请注意这是您的秘钥， 所以请不要把网站源代码发布在公众仓库里!
+  bing_host: https://cjh0613.github.io ## 在bing站长平台中注册的域名
+  bing_token: xxxxx ## 请注意这是您的秘钥， 所以请不要把网站源代码发布在公众仓库里!
+  google_host: https://cjh0613.github.io ## 在google站长平台中注册的域名
+  google_key_file: Project.json #存放google key的json文件，放于网站根目录，请不要把网站源代码发布在公众仓库里!
 ```
 
 ## deploy 配置

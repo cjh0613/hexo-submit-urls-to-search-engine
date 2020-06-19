@@ -1,33 +1,33 @@
 {
-  "name": "hexo-baidu-url-submit",
-  "version": "0.0.6",
-  "description": "submit new posts urls to baidu search engine",
-  "main": "index",
+  "name": "hexo-submit-urls-to-search-engine",
+  "version": "1.0.0",
+  "description": "Submit new posts urls to Google,Bing,Baidu search engine to improve the quality and speed of website collection",
+  "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/huiwang/hexo-baidu-url-submit.git"
+    "url": "https://github.com/cjh0613/hexo-submit-urls-to-search-engine.git"
   },
-
   "keywords": [
     "hexo",
     "deployer",
+    "google",
+    "bing",
     "baidu",
     "url",
     "submit",
     "seo"
   ],
-
   "author": {
-    "name": "Hui WANG",
-    "email": "hedonplay@gmail.com",
-    "url": "https://www.hui-wang.info"
+    "name": "CJH-Bruce",
+    "url": "https://cjh0613.github.io/en"
   },
-
-  "license": "MIT",
-
-  "dependencies": {
-    "xmlhttprequest": "^1.8.0"
+  "license": "GPL-3.0-only",
+   "dependencies": {
+    "xmlhttprequest": "^1.8.0",
+    "request": "^2.88.2",
+    "googleapis": "^52.1.0"
   }
 }
