@@ -2,6 +2,10 @@
 # hexo-submit-urls-to-search-engine
 ![峡州仙士](https://cdn.jsdelivr.net/gh/cjh0613/blog@master/images/icons/CJHicon.jpg)
 ## [Donate](https://cjh0613.github.io)
+Auto submit the new link of the Hexo to Google, Bing, Baidu search engine to improve the quality and speed of website collection.
+
+These three major search engines have occupied 97% of the global search engine market share (including Yahoo, ecosia, etc. using bing index). Later, I may add the function of submitting links to Yandex.
+
 [![GitHub stars](https://img.shields.io/github/stars/cjh0613/hexo-submit-urls-to-search-engine.svg?style=social)](https://github.com/cjh0613/hexo-submit-urls-to-search-engine/stargazers)     [![GitHub forks](https://img.shields.io/github/forks/cjh0613/hexo-submit-urls-to-search-engine.svg?style=social)](https://github.com/cjh0613/hexo-submit-urls-to-search-engine/network/members)  `Please click on the top right of the page star and fork【请点击页面顶部靠右star与fork】`
 
 
@@ -46,7 +50,7 @@ deploy:
 - type: cjh_google_url_submitter
 - type: cjh_bing_url_submitter
 - type: cjh_baidu_url_submitter
-- type: git # If you use it
+- type: git # If you use "hexo-deployer-git"
 ```
 
 ### 3.finish
