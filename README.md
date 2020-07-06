@@ -1,11 +1,13 @@
-# hexo-submit-urls-to-search-engine
 
+# hexo-submit-urls-to-search-engine
+![峡州仙士](https://cdn.jsdelivr.net/gh/cjh0613/blog@master/images/icons/CJHicon.jpg)
+## [Donate](https://cjh0613.github.io)
 [![GitHub stars](https://img.shields.io/github/stars/cjh0613/hexo-submit-urls-to-search-engine.svg?style=social)](https://github.com/cjh0613/hexo-submit-urls-to-search-engine/stargazers)     [![GitHub forks](https://img.shields.io/github/forks/cjh0613/hexo-submit-urls-to-search-engine.svg?style=social)](https://github.com/cjh0613/hexo-submit-urls-to-search-engine/network/members)  `请点击页面顶部靠右star与fork`
 
 
 [![GitHub release](https://img.shields.io/github/release/cjh0613/hexo-submit-urls-to-search-engine.svg?label=%E7%89%88%E6%9C%AC)](https://github.com/cjh0613/hexo-submit-urls-to-search-engine/releases/tag/)   ![GitHub top language](https://img.shields.io/github/languages/top/cjh0613/hexo-submit-urls-to-search-engine.svg)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/cjh0613/hexo-submit-urls-to-search-engine.svg)  ![GitHub repo size](https://img.shields.io/github/repo-size/cjh0613/hexo-submit-urls-to-search-engine.svg) ![GitHub](https://img.shields.io/github/license/cjh0613/hexo-submit-urls-to-search-engine.svg) ![platforms](https://img.shields.io/badge/platform-win32%20%7C%20win64%20%7C%20linux%20%7C%20osx-brightgreen.svg)     [![GitHub issues](https://img.shields.io/github/issues/cjh0613/hexo-submit-urls-to-search-engine.svg)](https://github.com/cjh0613/hexo-submit-urls-to-search-engine/issues)  [![GitHub closed issues](https://img.shields.io/github/issues-closed/cjh0613/hexo-submit-urls-to-search-engine.svg)](https://github.com/cjh0613/hexo-submit-urls-to-search-engine/issues?q=is%3Aissue+is%3Aclosed) ![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/cjh0613/hexo-submit-urls-to-search-engine.svg)   ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/cjh0613/hexo-submit-urls-to-search-engine.svg)  ![GitHub contributors](https://img.shields.io/github/contributors/cjh0613/hexo-submit-urls-to-search-engine.svg)
 
-## Document
+## Documentation
 [中文使用文档](https://cjh0613.github.io/blog/20200603HexoSubmitUrlsToSearchEngine.html)
 
 [English doc](https://cjh0613.github.io/en/20200603HexoSubmitUrlsToSearchEngine.html)
@@ -54,11 +56,11 @@ hexo clean && hexo generate && hexo deploy
 ```
 And enjoy!
 
-success callback:
+success response:
 ```
-Bing callback:  { d: null }
-Baidu callback:  {"remain":2999,"success":1}
-Google callback:  { urlNotificationMetadata:
+Bing response:  { d: null }
+Baidu response:  {"remain":2999,"success":1}
+Google response:  { urlNotificationMetadata:
    { url:
       'https://cjh0613.github.io',
      latestUpdate:
