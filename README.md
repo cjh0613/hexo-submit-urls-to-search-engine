@@ -27,6 +27,9 @@ npm install --save hexo-submit-urls-to-search-engine
 
 ### 2.Edit hexo config.yml
 #### (1)hexo_submit_urls_to_search_engine
+
+> Of course, you can use environment variables to record the key, so that even if the source code is placed in a public warehouse, it will not reveal the secret key.
+ 
 ```
 hexo_submit_urls_to_search_engine:
   submit_condition: count # count/period The submitted condition, only supports count now
