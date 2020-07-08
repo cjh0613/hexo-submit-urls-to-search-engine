@@ -18,7 +18,7 @@ The project is being tested publicly, welcome to use and click [Chat on Gitter](
 
 项目正公开测试，欢迎使用并点击[Chat on Gitter](https://gitter.im/cjh0613/hexo-submit-urls-to-search-engine)提交反馈！
 ## Documentation
-[中文使用文档](https://cjh0613.github.io/blog/20200603HexoSubmitUrlsToSearchEngine.html)
+[中文使用文档](https://cjh0613.github.io/blog/20200603HexoSubmitUrlsToSearchEngine.html) 中国内地用户务必阅读！
 
 [English doc](https://cjh0613.github.io/en/20200603HexoSubmitUrlsToSearchEngine.html)
 
@@ -41,7 +41,7 @@ hexo_submit_urls_to_search_engine:
   submit_condition: count # count/period The submitted condition, only supports count now
   count: 10 ## Submit the latest 10 links
   period: 900 #A period of time, in seconds, the update time of the article is away from the running time of the plugin. Within this period of time, the link will be submitted
-  google: 1 #Submit to Google
+  google: 1 #  1/0->on/off   Submit to Google
   bing: 1 #Submit to bing
   baidu: 1 #Submit to baidu
   txt_path: submit_urls.txt ## The address of the text document, the link to be pushed will be saved in this text document
