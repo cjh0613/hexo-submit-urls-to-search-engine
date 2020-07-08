@@ -41,7 +41,7 @@ hexo_submit_urls_to_search_engine:
   submit_condition: count # count/period The submitted condition, only supports count now
   count: 10 ## Submit the latest 10 links
   period: 900 #A period of time, in seconds, the update time of the article is away from the running time of the plugin. Within this period of time, the link will be submitted
-  google: 1 #  1/0->on/off   Submit to Google
+  google: 0 #  1/0->on/off   Submit to Google
   bing: 1 #Submit to bing
   baidu: 1 #Submit to baidu
   txt_path: submit_urls.txt ## The address of the text document, the link to be pushed will be saved in this text document
