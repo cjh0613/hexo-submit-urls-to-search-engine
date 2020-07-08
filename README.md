@@ -59,8 +59,9 @@ deploy:
 - type: cjh_google_url_submitter
 - type: cjh_bing_url_submitter
 - type: cjh_baidu_url_submitter
-- type: git # If you use "hexo-deployer-git"
 ```
+
+If you can push successfully, please **click "Star" as support**, thank you!
 
 ### 3.finish
 Run:
