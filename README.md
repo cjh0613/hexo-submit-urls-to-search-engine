@@ -1,11 +1,16 @@
 
 # hexo-submit-urls-to-search-engine
-![峡州仙士](https://cdn.jsdelivr.net/gh/cjh0613/blog@master/images/icons/CJHicon.jpg)
+![峡州仙士](https://cdn.jsdelivr.net/gh/cjh0613/blog/images/icons/CJHicon.jpg)
+
+## Documentation
+[中文使用文档](https://cjh0613.github.io/blog/20200603HexoSubmitUrlsToSearchEngine.html) 中国内地用户务必阅读！
+
+[English doc](https://cjh0613.github.io/en/20200603HexoSubmitUrlsToSearchEngine.html)
 
 ## [Donate](https://cjh0613.github.io) 
 ## [Chat on Gitter](https://gitter.im/cjh0613/hexo-submit-urls-to-search-engine)
 
-Auto submit the new link of the Hexo to Google, Bing, Baidu search engine to improve the quality and speed of website collection.
+Hexo plugin to submit URLs of new posts to Google, Bing, Baidu search engine to improve the quality and speed of website collection.
 
 These three major search engines have occupied 97% of the global search engine market share (including Yahoo, ecosia, etc. using bing index). Later, I may add the function of submitting links to Yandex.
 
@@ -17,15 +22,13 @@ These three major search engines have occupied 97% of the global search engine m
 The project is being tested publicly, welcome to use and click [Chat on Gitter](https://gitter.im/cjh0613/hexo-submit-urls-to-search-engine) to submit feedback! 
 
 项目正公开测试，欢迎使用并点击[Chat on Gitter](https://gitter.im/cjh0613/hexo-submit-urls-to-search-engine)提交反馈！
-## Documentation
-[中文使用文档](https://cjh0613.github.io/blog/20200603HexoSubmitUrlsToSearchEngine.html) 中国内地用户务必阅读！
-
-[English doc](https://cjh0613.github.io/en/20200603HexoSubmitUrlsToSearchEngine.html)
 
 ## Roadmap
-[开发计划、路线图](https://github.com/cjh0613/hexo-submit-urls-to-search-engine/projects/1) [Roadmap](https://github.com/cjh0613/hexo-submit-urls-to-search-engine/projects/1)
+[Roadmap, 开发计划、路线图](https://github.com/cjh0613/hexo-submit-urls-to-search-engine/projects/1) 
 
 ## Quick start
+**Just "Quick start"**, visit [English doc](https://cjh0613.github.io/en/20200603HexoSubmitUrlsToSearchEngine.html) for more.
+
 ### 1.install
 ```
 npm install --save hexo-submit-urls-to-search-engine
