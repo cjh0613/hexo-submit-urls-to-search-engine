@@ -29,8 +29,10 @@ If it still can't be solved, please issue.
 **Platform/操作系统:** 
 
 
-<!-- Chrome / Safari / FireFox / ... -->
-**Browser/浏览器:** 
+
+**npm Version:** 
+
+**hexo Version:** 
 
 
 ## Expected behaviour 预期行为
