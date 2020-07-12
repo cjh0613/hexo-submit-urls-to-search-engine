@@ -41,12 +41,12 @@ npm install --save hexo-submit-urls-to-search-engine
  
 ```
 hexo_submit_urls_to_search_engine:
-  submit_condition: count # count/period The submitted condition, only supports count now
-  count: 10 ## Submit the latest 10 links
-  period: 900 #A period of time, in seconds, the update time of the article is away from the running time of the plugin. Within this period of time, the link will be submitted
-  google: 0 #  1/0->on/off   Submit to Google
-  bing: 1 #Submit to bing
-  baidu: 1 #Submit to baidu
+  submit_condition: count # Submitted condition, optional value: count | period, Now only supports count
+  count: 10 # Submit the latest 10 links
+  period: 900 # Submit a link with a modification time of 900 seconds
+  google: 0 #  Whether to submit to Google, optional values: 1 | 0 (0: No; 1: Yes)
+  bing: 1 #  Whether to submit to bing, optional value: 1 | 0 (0: no; 1: yes)
+  baidu: 1 # Whether to submit to baidu, optional value: 1 | 0 (0: no; 1: yes)
   txt_path: submit_urls.txt ## The address of the text document, the link to be pushed will be saved in this text document
   baidu_host: https://cjh0613.github.io ## Domain name registered in Baidu webmaster platform
   baidu_token: xxxxx ## Please note that this is your secret key, so do not publish the website source code in the public repository!
