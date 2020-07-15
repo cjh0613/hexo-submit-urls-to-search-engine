@@ -34,7 +34,7 @@ These three major search engines have occupied 97% of the global search engine m
 npm install --save hexo-submit-urls-to-search-engine
 ```
 
-### 2.Edit hexo config.yml
+### 2.Edit hexo _config.yml
 #### (1)hexo_submit_urls_to_search_engine
 
 > Of course, you can use environment variables to record the key, so that even if the source code is placed in a public warehouse, it will not reveal the secret key.
@@ -53,7 +53,7 @@ hexo_submit_urls_to_search_engine:
   bing_host: https://cjh0613.github.io ## Domain name registered in Bing webmaster platform
   bing_token: xxxxx ## Please note that this is your secret key, so do not publish the website source code in the public repository!
   google_host: https://cjh0613.github.io ## Domain name registered in Google webmaster platform
-  google_key_file: Project.json #Store the json file of the google key in the root directory of the website (same location as the hexo config.yml file), please do not publish the source code of the website in the public warehouse!
+  google_key_file: Project.json #Store the json file of the google key in the root directory of the website (same location as the hexo _config.yml file), please do not publish the source code of the website in the public warehouse!
 ```
 
 #### (2)deploy
