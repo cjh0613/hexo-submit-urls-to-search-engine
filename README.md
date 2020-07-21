@@ -7,6 +7,8 @@ The project is being tested publicly, welcome to use and click [Chat on Gitter](
 
 项目正公开测试，欢迎使用并点击[Chat on Gitter](https://gitter.im/cjh0613/hexo-submit-urls-to-search-engine)提交反馈！
 
+官方交流 QQ 群：[1079685183 点击直接调用 QQ 添加](https://qm.qq.com/cgi-bin/qm/qr?k=POn3F_D9aGvz3sBLO-qwUkaQT7kWzwkC&jump_from=webapi)
+
 ## Roadmap
 [Roadmap, 开发计划、路线图](https://github.com/cjh0613/hexo-submit-urls-to-search-engine/projects/1) 
 
