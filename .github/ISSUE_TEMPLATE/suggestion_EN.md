@@ -17,5 +17,5 @@ Screenshots can be pasted here.
 ---
 
 <!--
-Like hexo-theme-stun? Please consider starring the repo to support it! Your support is my biggest encouragement!
+Like the repo? Please consider starring the repo to support it! Your support is my biggest encouragement!
 -->
