@@ -38,6 +38,12 @@ These three major search engines have occupied 97% of the global search engine m
 npm install --save hexo-submit-urls-to-search-engine
 ```
 
+or
+
+```
+yarn add hexo-submit-urls-to-search-engine
+```
+
 ### 2.Edit hexo _config.yml
 #### (1)hexo_submit_urls_to_search_engine
 
