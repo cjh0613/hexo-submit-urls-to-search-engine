@@ -19,8 +19,7 @@ Telegram group： https://t.me/hexoseo
 
 [English docs](https://en.cjh0613.com/20200603HexoSubmitUrlsToSearchEngine.html)
 
-## [Donate](https://cjh0613.github.io) 
-## [Chat on Gitter](https://gitter.im/cjh0613/hexo-submit-urls-to-search-engine)
+## [Donate](https://www.cjh0613.com) 
 
 Hexo plugin to submit URLs of new posts to Google, Bing, Baidu search engine to improve the quality and speed of website collection.
 
@@ -47,9 +46,9 @@ yarn add hexo-submit-urls-to-search-engine
 ### 2.Edit hexo _config.yml
 #### (1)hexo_submit_urls_to_search_engine
 
-> Of course, you can use environment variables to record the key, so that even if the source code is placed in a public warehouse, it will not reveal the secret key.
+> Of course, you can use environment variables to record the key, visit [English docs](https://en.cjh0613.com/20200603HexoSubmitUrlsToSearchEngine.html) or [中文详细文档](https://cjh0613.com/20200603HexoSubmitUrlsToSearchEngine.html)  for more.
  
-```
+```yaml
 hexo_submit_urls_to_search_engine:
   submit_condition: count # Submitted condition, optional value: count | period, Now only supports count
   count: 10 # Submit the latest 10 links
@@ -64,10 +63,13 @@ hexo_submit_urls_to_search_engine:
   bing_token: xxxxx ## Please note that this is your secret key, so do not publish the website source code in the public repository!
   google_host: https://cjh0613.github.io ## Domain name registered in Google webmaster platform
   google_key_file: Project.json #Store the json file of the google key in the root directory of the website (same location as the hexo _config.yml file), please do not publish the source code of the website in the public warehouse!
+  replace: 0  # Whether to replace some substrings in links, optional value: 1 | 0 (0: no; 1: yes)
+  find_what: http://ycjh0613.github.io/blog
+  replace_with: https://cjh0613.com
 ```
 
 #### (2)deploy
-```
+```yaml
 deploy:
 - type: cjh_google_url_submitter
 - type: cjh_bing_url_submitter
