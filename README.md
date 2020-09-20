@@ -5,8 +5,6 @@
 
 The project is being tested publicly, welcome to use and submit feedback! 
 
-项目正公开测试，欢迎使用并提交反馈！
-
 官方交流 QQ 群：[1079685183 点击直接调用 QQ 添加（凑人数）](https://qm.qq.com/cgi-bin/qm/qr?k=POn3F_D9aGvz3sBLO-qwUkaQT7kWzwkC&jump_from=webapi)
 
 ## Roadmap
