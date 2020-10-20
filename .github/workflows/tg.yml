@@ -15,7 +15,7 @@ jobs:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT: ${{ secrets.TELEGRAM_TO }}
         with: 
-          STATUS: 'footer' # Required for accessing the status of certain job
+          STATUS: ${{job.status}} # Required for accessing the status of certain job
           footer: 'Append' # Optional
           message: 'Override' # Optional
 
