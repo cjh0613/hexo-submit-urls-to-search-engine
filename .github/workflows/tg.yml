@@ -1,17 +1,31 @@
-name: Notify
+name: Notifier
+
+# triggers for notifying
+#  these are some important trigger cases could be change as need
+# check here https://developer.github.com/webhooks/
 on:
+  issue_comment:
+    types: created
+  issues:
+    types: [opened, edited, pinned, closed, reopened, assigned, labeled]
+  pull_request:
+    types: [opened, closed, edited, ready_for_review, review_requested, reopened]
+  pull_request_review_comment:
+    types: created
   push:
-  release:
-    types: [published,push]
 
 jobs:
-  notify:
-    name: Notify via Telegram
+  build:
+    name: Notifier
     runs-on: ubuntu-latest
+
     steps:
-      - uses: yanzay/notify-telegram@v0.1.0
-        if: always()
-        with:
-          chat: ${{ secrets.TELEGRAM_TO }} # user id or channel name secret
-          token: ${{ secrets.TELEGRAM_TOKEN }} # token secret
-          status: ${{ job.status }} # do not modify this line
+    - name: Notifier
+      uses: GokulDas027/TelegramBridge@master
+      if: always()
+      with:
+        chat: ${{ secrets.TELEGRAM_TO }} # save your chat id at settings/secrets with name: chat
+        token: ${{ secrets.TELEGRAM_TOKEN }} # savethe bot token at settings/secrets with name: token
+        status: ${{ job.status }} # don't change
+        event: ${{ github.event_name }} # don't change
+        actor: ${{ github.actor }} # don't change
