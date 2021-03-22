@@ -9,6 +9,8 @@ The project is being tested publicly, welcome to use and submit feedback!
 
 官方交流 QQ 群：[1079685183 点击直接调用 QQ 添加（凑人数）](https://qm.qq.com/cgi-bin/qm/qr?k=POn3F_D9aGvz3sBLO-qwUkaQT7kWzwkC&jump_from=webapi)
 
+Telegram group： https://t.me/hexoseo
+
 ## Roadmap
 [Roadmap, 开发计划、路线图](https://github.com/cjh0613/hexo-submit-urls-to-search-engine/projects/1) 
 
