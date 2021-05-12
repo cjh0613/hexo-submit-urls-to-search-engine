@@ -3,9 +3,9 @@
 ![峡州仙士](https://cdn.jsdelivr.net/gh/cjh0613/blog/images/icons/CJHicon.jpg)
 
 
-The project is being tested publicly, welcome to use and submit feedback! 
+English: The project is being tested publicly, welcome to use and submit feedback! 
 
-项目正公开测试，欢迎使用并提交反馈！
+中文：项目正公开测试，欢迎使用并提交反馈！
 
 官方交流 QQ 群：[1079685183 点击直接调用 QQ 添加（凑人数）](https://qm.qq.com/cgi-bin/qm/qr?k=POn3F_D9aGvz3sBLO-qwUkaQT7kWzwkC&jump_from=webapi)
 
@@ -62,9 +62,10 @@ hexo_submit_urls_to_search_engine:
   bing_host: https://cjh0613.github.io ## Domain name registered in Bing webmaster platform
   bing_token: xxxxx ## Please note that this is your secret key, so do not publish the website source code in the public repository!
   google_host: https://cjh0613.github.io ## Domain name registered in Google webmaster platform
-  google_key_file: Project.json #Store the json file of the google key in the root directory of the website (same location as the hexo _config.yml file), please do not publish the source code of the website in the public warehouse!
+  google_key_file: Project.json # Store the json file of the google key in the root directory of the website (same location as the hexo _config.yml file), please do not publish the source code of the website in the public warehouse!
+  google_proxy: 0 # Set the proxy used to submit urls to Google
   replace: 0  # Whether to replace some substrings in links, optional value: 1 | 0 (0: no; 1: yes)
-  find_what: http://ycjh0613.github.io/blog
+  find_what: http://cjh0613.github.io/blog
   replace_with: https://cjh0613.com
 ```
 
@@ -88,7 +89,9 @@ And enjoy!
 success response:
 ```
 Bing response:  { d: null }
+
 Baidu response:  {"remain":2999,"success":1}
+
 Google response:  { urlNotificationMetadata:
    { url:
       'https://cjh0613.github.io',
