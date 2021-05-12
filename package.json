@@ -1,6 +1,6 @@
 {
   "name": "hexo-submit-urls-to-search-engine",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Submit new posts urls to Google,Bing,Baidu search engine to improve the quality and speed of website collection",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,7 @@
     "url": "https://en.cjh0613.com/"
   },
   "license": "GPL-3.0-only",
-   "dependencies": {
+  "dependencies": {
     "xmlhttprequest": "^1.8.0",
     "request": "^2.88.2",
     "googleapis": "^52.1.0"
