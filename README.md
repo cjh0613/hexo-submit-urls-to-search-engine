@@ -3,14 +3,13 @@
 ![峡州仙士](https://cdn.jsdelivr.net/gh/cjh0613/blog/images/icons/CJHicon.jpg)
 
 
-English: The project is being tested publicly, welcome to use and submit feedback! 
+The project is being tested publicly, welcome to use and submit feedback!
 
-中文：项目正公开测试，欢迎使用并提交反馈！
-
-官方交流 QQ 群：[1079685183 点击直接调用 QQ 添加（凑人数）](https://qm.qq.com/cgi-bin/qm/qr?k=POn3F_D9aGvz3sBLO-qwUkaQT7kWzwkC&jump_from=webapi)
+QQ Group：[1079685183 点击直接调用 QQ 添加（凑人数）](https://qm.qq.com/cgi-bin/qm/qr?k=POn3F_D9aGvz3sBLO-qwUkaQT7kWzwkC&jump_from=webapi)
 
 Telegram group： https://t.me/hexoseo
 
+If you don't want to be disturbed by excessive group messages, you can join and set it to mute, and then open the communication when you need it.
 ## Roadmap
 [Roadmap, 开发计划、路线图](https://github.com/cjh0613/hexo-submit-urls-to-search-engine/projects/1) 
 
