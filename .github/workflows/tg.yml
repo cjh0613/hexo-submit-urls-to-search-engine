@@ -20,12 +20,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Notifier
-      uses: GokulDas027/TelegramBridge@master
-      if: always()
-      with:
-        chat: ${{ secrets.TELEGRAM_TO }} # save your chat id at settings/secrets with name: chat
-        token: ${{ secrets.TELEGRAM_TOKEN }} # savethe bot token at settings/secrets with name: token
-        status: ${{ job.status }} # don't change
-        event: ${{ github.event_name }} # don't change
-        actor: ${{ github.actor }} # don't change
+      - name: Notifier
+        uses: GokulDas027/TelegramBridge@master
+        if: always()
+        with:
+          chat: ${{ secrets.TELEGRAM_TO }} # save your chat id at settings/secrets with name: chat
+          token: ${{ secrets.TELEGRAM_TOKEN }} # savethe bot token at settings/secrets with name: token
+          status: ${{ job.status }} # don't change
+          event: ${{ github.event_name }} # don't change
+          actor: ${{ github.actor }} # don't change
