@@ -5,9 +5,7 @@
 
 The project is being tested publicly, welcome to use and submit feedback!
 
-QQ Group：[1079685183 点击直接调用 QQ 添加（凑人数）](https://qm.qq.com/cgi-bin/qm/qr?k=POn3F_D9aGvz3sBLO-qwUkaQT7kWzwkC&jump_from=webapi)
 
-Telegram group： https://t.me/hexoseo
 
 If you don't want to be disturbed by excessive group messages, you can join and set it to mute, and then open the communication when you need it.
 ## Roadmap
