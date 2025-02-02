@@ -12,9 +12,9 @@ If you don't want to be disturbed by excessive group messages, you can join and 
 [Roadmap, 开发计划、路线图](https://github.com/cjh0613/hexo-submit-urls-to-search-engine/projects/1) 
 
 ## Documentation
-[中文使用文档](https://cjh0613.com/20200603HexoSubmitUrlsToSearchEngine.html) 中国内地用户务必阅读！
+中文使用文档 <a href="https://h.cjh0613.com/zh/posts/hexo-submit-urls-to-search-engine/" rel="noopener" target="_blank">hexo-submit-urls-to-search-engine</a> 中国内地用户务必阅读！
 
-[English docs](https://en.cjh0613.com/20200603HexoSubmitUrlsToSearchEngine.html)
+English docs <a href="https://h.cjh0613.com/en/posts/hexo-submit-urls-to-search-engine/" rel="noopener" target="_blank">hexo-submit-urls-to-search-engine Documentation</a>
 
 ## [Donate](https://www.cjh0613.com) 
 
@@ -27,7 +27,7 @@ These three major search engines have occupied 97% of the global search engine m
 
 [![GitHub release](https://img.shields.io/github/release/cjh0613/hexo-submit-urls-to-search-engine.svg?label=%E7%89%88%E6%9C%AC)](https://github.com/cjh0613/hexo-submit-urls-to-search-engine/releases/tag/)   ![GitHub top language](https://img.shields.io/github/languages/top/cjh0613/hexo-submit-urls-to-search-engine.svg)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/cjh0613/hexo-submit-urls-to-search-engine.svg)  ![GitHub repo size](https://img.shields.io/github/repo-size/cjh0613/hexo-submit-urls-to-search-engine.svg) ![GitHub](https://img.shields.io/github/license/cjh0613/hexo-submit-urls-to-search-engine.svg) ![platforms](https://img.shields.io/badge/platform-win32%20%7C%20win64%20%7C%20linux%20%7C%20osx-brightgreen.svg)     [![GitHub issues](https://img.shields.io/github/issues/cjh0613/hexo-submit-urls-to-search-engine.svg)](https://github.com/cjh0613/hexo-submit-urls-to-search-engine/issues)  [![GitHub closed issues](https://img.shields.io/github/issues-closed/cjh0613/hexo-submit-urls-to-search-engine.svg)](https://github.com/cjh0613/hexo-submit-urls-to-search-engine/issues?q=is%3Aissue+is%3Aclosed) ![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/cjh0613/hexo-submit-urls-to-search-engine.svg)   ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/cjh0613/hexo-submit-urls-to-search-engine.svg)  ![GitHub contributors](https://img.shields.io/github/contributors/cjh0613/hexo-submit-urls-to-search-engine.svg)
 ## Quick start
-**Just "Quick start"**, visit [English docs](https://en.cjh0613.com/20200603HexoSubmitUrlsToSearchEngine.html) or [中文详细文档](https://cjh0613.com/20200603HexoSubmitUrlsToSearchEngine.html)  for more.
+**Just "Quick start"**, visit <a href="https://h.cjh0613.com/en/posts/hexo-submit-urls-to-search-engine/" rel="noopener" target="_blank">hexo-submit-urls-to-search-engine Documentation</a>  for more.
 
 ### 1.install
 ```
@@ -43,7 +43,7 @@ yarn add hexo-submit-urls-to-search-engine
 ### 2.Edit hexo _config.yml
 #### (1)hexo_submit_urls_to_search_engine
 
-> Of course, you can use environment variables to record the key, visit [English docs](https://en.cjh0613.com/20200603HexoSubmitUrlsToSearchEngine.html) or [中文详细文档](https://cjh0613.com/20200603HexoSubmitUrlsToSearchEngine.html)  for more.
+> Of course, you can use environment variables to record the key, visit document  for more.
  
 ```yaml
 hexo_submit_urls_to_search_engine:
