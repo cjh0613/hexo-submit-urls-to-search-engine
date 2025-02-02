@@ -59,6 +59,7 @@ hexo_submit_urls_to_search_engine:
   baidu_host: https://cjh0613.github.io ## Domain name registered in Baidu webmaster platform
   baidu_token: xxxxx ## Please note that this is your secret key, so do not publish the website source code in the public repository!
   bing_host: https://cjh0613.github.io ## Domain name registered in Bing webmaster platform
+  bing_enable_indexnow: false # Is the Bing IndexNow feature enabled? The optional values are: true (Yes) | false (No). Only v2.1.1 and above can enable this feature.
   bing_token: xxxxx ## Please note that this is your secret key, so do not publish the website source code in the public repository!
   google_host: https://cjh0613.github.io ## Domain name registered in Google webmaster platform
   google_key_file: Project.json # Store the json file of the google key in the root directory of the website (same location as the hexo _config.yml file), please do not publish the source code of the website in the public warehouse!
