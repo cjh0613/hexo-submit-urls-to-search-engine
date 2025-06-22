@@ -20,8 +20,6 @@ English docs <a href="https://h.cjh0613.com/en/posts/hexo-submit-urls-to-search-
 
 ## [Donate](https://www.cjh0613.com) 
 
-[![Powered by DartNode](https://dartnode.com/branding/DN-Open-Source-sm.png)](https://dartnode.com "Powered by DartNode - Free VPS for Open Source")
-
 Hexo plugin to submit URLs of new posts to Google, Bing, Baidu search engine to improve the quality and speed of website collection.
 
 These three major search engines have occupied 97% of the global search engine market share (including Yahoo, ecosia, etc. using bing index). Later, I may add the function of submitting links to Yandex.
